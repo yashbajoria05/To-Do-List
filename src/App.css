@@ -1,0 +1,27 @@
+.main-container {
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  background-color: #e4e4e4;
+  box-shadow: 7px 7px 7px rgba(17, 17, 17, 0.276);
+  /* border: 2px solid; */
+}
+.main-container h1 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.container {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #2ecf71;
+  box-shadow: none;
+}
